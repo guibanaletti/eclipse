@@ -14,7 +14,7 @@ public class Main{
 			Conta poupanca = new ContaPoupanca();
 			System.out.println("Conta criada!");
 		}
-		if (entrada == 2) {
+		/**if (entrada == 2) {
 			System.out.println("Informe o número da conta");
 			numeroConta = teclado.nextInt();
 			Conta auxiliar = new ContaCorrente();
@@ -36,7 +36,7 @@ public class Main{
 			if (entrada == 3) {
 				auxiliar.imprimirExtrato();
 			}
-		}
+		} **/
 		else {
 			System.out.println ("Informar valor válido.");
 		}
